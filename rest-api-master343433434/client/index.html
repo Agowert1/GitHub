@@ -38,37 +38,176 @@
     </div>
     <button class="btn btn-primary" type="submit" :disabled="!canCreate">Создать</button>
   </form>
-  <table class="table">
-    <tbody>
-    <tr>
-      <th scope="row">Имя</th>
-      <td>Фамилия</td>
-      <td>Отчество</td>
-      <td>ИНН</td>
-    </tr>
-    </tbody>
-  </table>
+
 
   <div v-if="loading">
     <loader />
   </div>
-
-
-    <div class="card mb-3" v-for="contact in contacts">
-
-        <table class="table">
-          <tbody>
-          <tr>
-            <th scope="row">{{contact.name}}</th>
-            <td>{{contact.name2}}</td>
-            <td>{{contact.name3}}</td>
-            <td>{{contact.value}}</td>
-          </tr>
-          </tbody>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <table class="table">
+            <tbody>
+            <tr>
+              <th scope="row">Поволжский государственный технологический университет</th>
+              <td>Адрес: Площадь Ленина, 3, Йошкар-Ола</td>
+            </tr>
+            </tbody>
           </table>
+        </button>
+      </h2>
 
-        <button class="btn btn-danger" @click="removeContact(contact.id)">Удалить</button>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong> <div class="card mb-3" v-for="contact in contacts">
+
+            <table class="table">
+              <tbody>
+              <tr>
+                <th scope="row">{{contact.name}}</th>
+                <td>{{contact.name2}}</td>
+                <td>{{contact.name3}}</td>
+                <td>{{contact.value}}</td>
+              </tr>
+              </tbody>
+            </table>
+
+            <button class="btn btn-danger" @click="removeContact(contact.id)">Удалить</button>
+          </div></strong>
+        </div>
+        <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+          <a href="#" class="btn btn-primary">Аудитория</a>
       </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="accordion" id="accordionExample1">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+          <table class="table">
+            <tbody>
+            <tr>
+              <th scope="row">2 Корпус Поволжского государственного технологического университета</th>
+              <td>Адрес: ул. Советская, 158, Йошкар-Ола</td>
+            </tr>
+            </tbody>
+          </table>
+        </button>
+      </h2>
+
+      <div id="collapseOne1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong> <div class="card mb-3" v-for="contact in contacts">
+
+            <table class="table">
+              <tbody>
+              <tr>
+                <th scope="row">{{contact.name}}</th>
+                <td>{{contact.name2}}</td>
+                <td>{{contact.name3}}</td>
+                <td>{{contact.value}}</td>
+              </tr>
+              </tbody>
+            </table>
+
+            <button class="btn btn-danger" @click="removeContact(contact.id)">Удалить</button>
+          </div></strong>
+        </div>
+        <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+          <a href="#" class="btn btn-primary">Аудитория</a>
+      </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion" id="accordionExample2">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne2">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+          <table class="table">
+            <tbody>
+            <tr>
+              <th scope="row">3 Корпус ПГТУ, Поволжский государственный технологический университет</th>
+              <td>Адрес: ул. Панфилова, 17, Йошкар-Ола</td>
+            </tr>
+            </tbody>
+          </table>
+        </button>
+      </h2>
+
+      <div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong> <div class="card mb-3" v-for="contact in contacts">
+
+            <table class="table">
+              <tbody>
+              <tr>
+                <th scope="row">{{contact.name}}</th>
+                <td>{{contact.name2}}</td>
+                <td>{{contact.name3}}</td>
+                <td>{{contact.value}}</td>
+              </tr>
+              </tbody>
+            </table>
+
+            <button class="btn btn-danger" @click="removeContact(contact.id)">Удалить</button>
+          </div></strong>
+        </div>
+        <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+          <a href="#" class="btn btn-primary">Аудитория</a>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion" id="accordionExample3">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne3">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+          <table class="table">
+            <tbody>
+            <tr>
+              <th scope="row">4 Корпус Поволжский государственный технологический университет</th>
+              <td>Адрес: 4 ул. Волкова, 155А, Йошкар-Ола</td>
+            </tr>
+            </tbody>
+
+          </table>
+        </button>
+      </h2>
+
+      <div id="collapseOne3" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong> <div class="card mb-3" v-for="contact in contacts">
+
+            <table class="table">
+              <tbody>
+              <tr>
+                <th scope="row">{{contact.name}}</th>
+                <td>{{contact.name2}}</td>
+                <td>{{contact.name3}}</td>
+                <td>{{contact.value}}</td>
+              </tr>
+              </tbody>
+
+            </table>
+
+            <button class="btn btn-danger" @click="removeContact(contact.id)">Удалить</button>
+          </div></strong>
+        </div>
+        <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+          <a href="#" class="btn btn-primary">Аудитория</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
     </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

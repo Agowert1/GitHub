@@ -36,9 +36,25 @@ app.put('/api/contacts/:id', (req, res) => {
 
 
 app.use(express.static(path.resolve(__dirname, 'client')))
+app.use(express.static(path.resolve(__dirname, 'politex1')))
+app.use(express.static(path.resolve(__dirname, 'politex2')))
+app.use(express.static(path.resolve(__dirname, 'politex3')))
+app.use(express.static(path.resolve(__dirname, 'politex4')))
 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'client', 'index.html'))
+})
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'politex1', 'index.html'))
+})
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'politex2', 'index.html'))
+})
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'politex3', 'index.html'))
+})
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'politex4', 'index.html'))
 })
 
 app.listen(3000, () => console.log('Server has been started on port 3000...'))
