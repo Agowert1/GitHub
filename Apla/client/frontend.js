@@ -20,6 +20,7 @@ new Vue({
         name: '',
         name2: '',
         name3: '',
+        name4: '',
         value: ''
       },
       contacts: []
@@ -38,7 +39,7 @@ new Vue({
 
       this.contacts.push(newContact)
 
-      this.form.name3 =this.form.name2 = this.form.name = this.form.value = ''
+
     },
     async markContact(id) {
       const contact = this.contacts.find(c => c.id === id)

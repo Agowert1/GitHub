@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08919d28-da68-45e7-8c80-35c554384607" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../forgot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../group_project" beforeDir="false" afterPath="$PROJECT_DIR$/../group_project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/client/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politex1/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/politex1/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politex1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/politex1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politex2/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/politex2/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politex2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/politex2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politex3/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/politex3/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politex3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/politex3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politex4/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/politex4/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/politex4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Apla/politex4/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Fkkamd5RlFdwEnAYvEOcyLwFC1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Neo/Documents/Teardown",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Neo\Documents\GitHub\rest-api-master343433434" />
+      <recent name="C:\Users\Neo\Documents\GitHub\rest-api-master343433434\politex1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08919d28-da68-45e7-8c80-35c554384607" name="Changes" comment="" />
+      <created>1665043534405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665043534405</updated>
+      <workItem from="1665043535541" duration="4187000" />
+      <workItem from="1665128080688" duration="9992000" />
+      <workItem from="1665325370359" duration="6192000" />
+      <workItem from="1665378147546" duration="1963000" />
+      <workItem from="1666253087926" duration="42000" />
+      <workItem from="1666253218954" duration="22000" />
+      <workItem from="1666253267335" duration="321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

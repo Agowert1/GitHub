@@ -16,25 +16,29 @@
 <body>
 
 <div class="container pt-3" id="app" v-cloak>
-  <h1>Политеx</h1>
+  <h1>Политеx тестиров</h1>
 
   <form class="form-inline mb-3" @submit.prevent="createContact">
     <div class="form-group mr-5">
-      <label for="name" class="mr-3">Имя</label>
+      <label for="name" class="mr-3">Номер</label>
       <input type="text" class="form-control" id="name" v-model="form.name">
     </div>
     <div class="form-group mr-5">
-      <label for="name2" class="mr-3">Фамилия</label>
+      <label for="name2" class="mr-3">Корпус</label>
       <input type="text" class="form-control" id="name2" v-model="form.name2">
     </div>
     <div class="form-group mr-5">
-      <label for="name3" class="mr-3">Отчество</label>
+      <label for="name3" class="mr-3">Этаж</label>
       <input type="text" class="form-control" id="name3" v-model="form.name3">
     </div>
 
     <div class="form-group mr-5">
-      <label for="value" class="mr-3">ИНН</label>
+      <label for="value" class="mr-3">Тип аудитории</label>
       <input type="text" class="form-control" id="value" v-model="form.value">
+    </div>
+    <div class="form-group mr-5">
+      <label for="value" class="mr-3">Кол-во мест</label>
+      <input type="text" class="form-control" id="name4" v-model="form.name4">
     </div>
     <button class="btn btn-primary" type="submit" :disabled="!canCreate">Создать</button>
   </form>
@@ -50,18 +54,20 @@
           <table class="table">
             <tbody>
             <tr>
-              <th scope="row">Поволжский государственный технологический университет</th>
-              <td>Адрес: Площадь Ленина, 3, Йошкар-Ола</td>
+              <th scope="row">Аудитория</th>
+              <td></td>
             </tr>
             </tbody>
+
           </table>
         </button>
       </h2>
 
+
+
       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <strong> <div class="card mb-3" v-for="contact in contacts">
-
             <table class="table">
               <tbody>
               <tr>
@@ -69,9 +75,11 @@
                 <td>{{contact.name2}}</td>
                 <td>{{contact.name3}}</td>
                 <td>{{contact.value}}</td>
+                <td>{{contact.name4}}</td>
               </tr>
               </tbody>
             </table>
+
 
             <button class="btn btn-danger" @click="removeContact(contact.id)">Удалить</button>
           </div></strong>
